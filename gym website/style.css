@@ -1,0 +1,109 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://blog.nasm.org/hubfs/hypertrophy-workouts.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+ 
+.navigation .btnLogin-popup{
+     width: 130px;
+     height: 50px;
+     background: transparent;
+     border: 2px solid #fff;
+     outline: none;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 1.1em;
+     color: #fff;
+     font-weight: 500;
+     margin-left: 40px;
+     transition: .5s;   
+}
+
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color:#162938;
+}
+
+.input-box input:focus~label,
+.input-box input:focus~label {
+    top: -5px;
+}
+
+
+
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 500px;
+}
+
+.login-register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600; 
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
+
